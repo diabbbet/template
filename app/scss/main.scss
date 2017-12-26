@@ -3,10 +3,8 @@
 // vars
 $default_font: 'Roboto', sans-serif;
 $accent_font: 'Roboto Condensed', sans-serif;
-$default_color: #003b71;
-$accent_color: #e01f26;
-$black_color: #161616;
-$gray_color: #7c7c7c;
+$default_color: red;
+$accent_color: blue;
 
 // default-sets
 html {
@@ -31,21 +29,42 @@ body {
 	}
 }
 
+main {
+	min-height: 100%;
+	height: auto !important;
+	.footer-indent {
+		padding-bottom: 10rem;
+	}
+}
+
+footer {
+	margin-top: -10rem;
+	height: 100px;
+	background-color: tomato;
+}
+
+// typographic
+h1, .h1 {
+}
+
+h2, .h2 {
+}
+
+h3, .h3 {
+}
+
 p {
 }
 
-.h1 {
-}
-
-.h2 {
-}
-
-.h3 {
-}
-
-ul {
+ul, ol {
+	list-style: none;
+	padding: 0;
 	li {
 	}
+}
+
+a {
+
 }
 
 // grid

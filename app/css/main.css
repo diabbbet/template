@@ -17,6 +17,21 @@ body {
   body.hidden {
     overflow: hidden; }
 
+main {
+  min-height: 100%;
+  height: auto !important; }
+  main .footer-indent {
+    padding-bottom: 10rem; }
+
+footer {
+  margin-top: -10rem;
+  height: 100px;
+  background-color: tomato; }
+
+ul, ol {
+  list-style: none;
+  padding: 0; }
+
 .container {
   padding: 1px 20px; }
   .container:after {
