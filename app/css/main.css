@@ -1,0 +1,25 @@
+html {
+  font-size: 10px;
+  height: 100%; }
+  html * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none; }
+
+body {
+  overflow-x: hidden;
+  min-width: 320px;
+  font-size: 1.6rem;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  height: 100%; }
+  body.hidden {
+    overflow: hidden; }
+
+.container {
+  padding: 1px 20px; }
+  .container:after {
+    content: '';
+    display: table;
+    clear: both; }

@@ -1,0 +1,59 @@
+// fonts
+
+// vars
+$default_font: 'Roboto', sans-serif;
+$accent_font: 'Roboto Condensed', sans-serif;
+$default_color: #003b71;
+$accent_color: #e01f26;
+$black_color: #161616;
+$gray_color: #7c7c7c;
+
+// default-sets
+html {
+	font-size: 10px;
+	height: 100%;
+	* {
+		box-sizing: border-box;
+		outline: none;
+	}
+}
+
+body {
+	overflow-x: hidden;
+	min-width: 320px;
+	font-size: 1.6rem;
+	line-height: 1;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	&.hidden {
+		overflow: hidden;
+	}
+}
+
+p {
+}
+
+.h1 {
+}
+
+.h2 {
+}
+
+.h3 {
+}
+
+ul {
+	li {
+	}
+}
+
+// grid
+.container {
+	padding: 1px 20px;
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
